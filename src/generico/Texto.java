@@ -10,8 +10,11 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Alumno
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
+
+//Clase general para JLabels pre-configurados
 public class Texto extends JLabel{
     public Texto(String text, int x, int y, Ventana padre){
         super();

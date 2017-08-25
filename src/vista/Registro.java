@@ -13,7 +13,8 @@ import javax.swing.JOptionPane;
 import logica.BaseDatos;
 /**
  *
- * @author SAUL
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
 public class Registro extends Ventana{
     
@@ -24,10 +25,12 @@ public class Registro extends Ventana{
         super();
         this.configFrame(25, 25, 25, 50);
         
+        //Crea la tabla con los datos del registro
         tabla = new Tabla(0,0, 200, this.getSize().width, new Object[]{
             "Nombre", "Apellido materno", "Apellido paterno", "Escuela" 
         }, this);
         
+        //Boton regresar, vuelve al módulo formulario
         this.regresarBtn = new Boton("Regresar", 0, 224,this) {
             @Override
             public void action() {
@@ -37,7 +40,7 @@ public class Registro extends Ventana{
             }
         };
         
-        
+        //Instancia de base de datos, carga los registros
         try{
             BaseDatos bd = new BaseDatos();
             bd.setConsulta("select * from datos");

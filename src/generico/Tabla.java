@@ -14,8 +14,12 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author SAUL
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
+
+//Clase tabla generica, con pre-configuraciones y métodos
+//Hereda de JTable
 public class Tabla extends JTable{
     private DefaultTableModel modelo;
     private JScrollPane contenedor;

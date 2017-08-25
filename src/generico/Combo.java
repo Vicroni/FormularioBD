@@ -8,12 +8,12 @@ package generico;
 import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Vector;
 import javax.swing.JComboBox;
 
 /**
  *
- * @author SAUL
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
 public abstract class Combo extends JComboBox<String>{
 

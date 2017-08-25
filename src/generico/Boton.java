@@ -12,7 +12,8 @@ import javax.swing.JButton;
 
 /**
  *
- * @author SAUL
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
 public abstract class Boton extends JButton{
     
@@ -26,12 +27,14 @@ public abstract class Boton extends JButton{
         this.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
+                //Método abstracto para implementar acciones en Botones
                 action();
             }
         });
         
         this.setLocation(new Point(x, y));
         
+        //Agrega el elemento al objeto padre
         padre.add(this);
     }
    

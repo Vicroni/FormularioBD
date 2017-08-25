@@ -9,10 +9,12 @@ import java.awt.event.KeyEvent;
 
 /**
  *
- * @author SAUL
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
 public class EntradaTextoAdapter extends EntradaTexto{
 
+    //Configuración especial de locación, hereda de EntradaTexto
     public EntradaTextoAdapter(int x, int y, double alto, double ancho, Ventana padre) {
         super(x, y, alto, ancho, padre);
     }

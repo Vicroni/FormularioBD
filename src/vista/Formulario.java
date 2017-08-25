@@ -15,9 +15,15 @@ import logica.BaseDatos;
 
 /**
  *
- * @author Alumno
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
+
+//Clase contenido de ventana, carga el formulario
 public class Formulario extends Ventana{
+    
+    //Inicializando variables de instancia para formulario
+    //(Variables de Java Swing)
     private Texto nombreTxt, apellidoPatTxt, apellidoMatTxt, escuelaTxt;
     private EntradaTextoAdapter nombreIN, apellidoPatIN, apellidoMatIN;
     private Boton registroBtn, consultaBtn;
@@ -88,7 +94,7 @@ public class Formulario extends Ventana{
     private void realizarRegistro() {
         try{
             BaseDatos bd = new BaseDatos();
-            bd.setConsulta("insert into datos values(?,?, ?, ?)");
+            bd.setConsulta("insert into datos values(?,?,?,?)");
 
             bd.getConsulta().setString(1, nombreIN.getText());
             bd.getConsulta().setString(2, apellidoPatIN.getText());

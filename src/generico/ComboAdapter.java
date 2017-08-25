@@ -7,10 +7,12 @@ package generico;
 
 /**
  *
- * @author SAUL
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
 public class ComboAdapter extends Combo{
 
+    //Configuración de contenido y locación del Combo, hereda de Combo
     public ComboAdapter(int x, int y, String[] string, Ventana padre) {
         super(x, y, string, padre);
     }

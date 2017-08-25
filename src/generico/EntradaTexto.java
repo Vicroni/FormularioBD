@@ -13,7 +13,8 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author SAUL
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO 
  */
 public abstract class EntradaTexto extends JTextField{
     

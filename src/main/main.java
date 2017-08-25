@@ -10,7 +10,19 @@ import vista.Formulario;
 
 /**
  *
- * @author SAUL
+ * @author SAUL FERNANDO GONZÁLEZ DOMINGUEZ
+ * @author CARLOS EDUARDO GONZÁLEZ ANGUIANO
+ * 
+ * GRUPO: 5IM6
+ * 
+ * FORMULARIO CON BASE DE DATOS
+ * 
+ * FECHA DE ENTREGA: 25 / 08 / 2017
+ * 
+ * ASIGNATURA: LABORATORIO DE PROYECTOS DE
+ *             TECNOLOGÍAS DE LA INFORMACIÓN III
+ * 
+ * PROFESORA TITULAR: HERNANDEZ MENDOZA MA. DE LOURDES	 
  */
 public class main {
     /**
